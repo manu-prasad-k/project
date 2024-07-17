@@ -1,0 +1,175 @@
+body {
+    background-color: lightblue;
+  }
+  
+  .Car h5 {
+    color: green;
+    font-size: 12px; 
+    font-weight: normal;
+    padding: 30px;
+    margin-left: 50px;
+    text-align: center;
+  }
+  
+  .head {
+    margin-left: 80px;
+    margin-top: -86px;
+    color: green;
+    text-align: center;
+  }
+  
+  .head1 h3 {
+    margin-bottom: 70px;
+    margin-left: 60px;
+  }
+  
+  .head2 h3 {
+    margin-top: -70px;
+    margin-left: 120px;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin-top: -195px;
+    margin-right: 10px;
+    margin-left: 80px;
+    border-radius: 50%;
+    text-align: center;
+  }
+  
+  .center p {
+    color: black;
+  }
+  
+  .center1, .center2, .center3 {
+    margin: 10px; 
+    text-align: center; 
+  }
+  
+  .round {
+    border-radius: 10px;
+    width: 50px;
+    margin-left: 110px;
+  }
+  
+  .title2 {
+    margin-left: 10px;
+    font-weight: bold;
+    margin-right: 18px;
+  }
+  
+  .solo {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .food {
+    font-weight: bold;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 1200px) {
+    .head, .head1 h3, .head2 h3 {
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+  
+    .center {
+      height: auto;
+      margin-top: -100px;
+      margin-left: 40px;
+      margin-right: 10px;
+    }
+    
+    .round {
+      width: 40px;
+      margin-left: 60px;
+    }
+  
+    .title2 {
+      margin-right: 10px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .Car h5 {
+      font-size: 10px;
+      padding: 20px;
+      margin-left: 20px;
+    }
+  
+    .head {
+      margin-left: 20px;
+      margin-top: -50px;
+    }
+  
+    .head1 h3 {
+      margin-left: 20px;
+    }
+  
+    .head2 h3 {
+      margin-top: -50px;
+      margin-left: 20px;
+    }
+  
+    .center {
+      flex-direction: column;
+      margin-top: -50px;
+      margin-left: 20px;
+      height: auto;
+    }
+  
+    .round {
+      width: 30px;
+      margin-left: 30px;
+    }
+  
+    .title2 {
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Car h5 {
+      font-size: 8px;
+      padding: 10px;
+      margin-left: 10px;
+    }
+  
+    .head {
+      margin-left: 10px;
+      margin-top: -30px;
+    }
+  
+    .head1 h3 {
+      margin-bottom: 30px;
+      margin-left: 10px;
+    }
+  
+    .head2 h3 {
+      margin-top: -30px;
+      margin-left: 10px;
+    }
+  
+    .center {
+      flex-direction: column;
+      margin-top: -30px;
+      margin-left: 10px;
+      height: auto;
+    }
+  
+    .round {
+      width: 20px;
+      margin-left: 10px;
+    }
+  
+    .title2 {
+      margin-left: 2px;
+      margin-right: 2px;
+    }
+  }
+  

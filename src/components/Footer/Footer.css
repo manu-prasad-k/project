@@ -1,0 +1,123 @@
+.grid h4 {
+    color: white;
+  }
+  
+  .head {
+    margin-top: -4px;
+    margin-right: 80px;
+  }
+  
+  .head2 {
+    margin-top: -4px;
+    margin-right: 80px;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
+    padding: 20px; 
+    margin-top: -30px;
+  }
+  
+  .icon {
+    font-size: 24px; 
+    color: #000; 
+    cursor: pointer; 
+    transition: transform 0.3s ease; 
+  }
+  
+  .image-row, .image-row2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    padding: 20px;
+  }
+  
+  .image img, .image2 img {
+    width: 150px; 
+    height: auto; 
+    border: 2px solid #ddd; 
+    border-radius: 10px; 
+    transition: transform 0.3s ease; 
+  }
+  
+  .image img:hover, .image2 img:hover {
+    transform: scale(1.1); 
+  }
+  
+  .head3 {
+    color: white;
+  }
+  
+  .head4 {
+    color: white;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 1200px) {
+    .head, .head2 {
+      margin-right: 40px; 
+    }
+  
+    .icons {
+      flex-direction: column; 
+      gap: 15px;
+    }
+  
+    .image img, .image2 img {
+      width: 120px; 
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .head, .head2 {
+      margin-right: 20px; 
+    }
+  
+    .icons {
+      flex-direction: column; 
+      gap: 10px;
+      padding: 10px; 
+    }
+  
+    .icon {
+      font-size: 20px; 
+    }
+  
+    .image img, .image2 img {
+      width: 100px; 
+    }
+  
+    .image-row, .image-row2 {
+      flex-direction: column; 
+      gap: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .head, .head2 {
+      margin-right: 10px; 
+    }
+  
+    .icons {
+      flex-direction: column; 
+      gap: 5px;
+      padding: 5px; 
+    }
+  
+    .icon {
+      font-size: 16px; 
+    }
+  
+    .image img, .image2 img {
+      width: 80px; 
+    }
+  
+    .image-row, .image-row2 {
+      flex-direction: column; 
+      gap: 10px;
+    }
+  }
+  

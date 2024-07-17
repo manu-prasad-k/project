@@ -1,0 +1,89 @@
+.value h5 {
+    color: green;
+    font-size: 12px; 
+    font-weight: normal;
+  }
+  
+  .value h3 {
+    color: green;
+  }
+  
+  .value p {
+    color: black;
+  }
+  
+  .h1 {
+    font-size: 18px;
+  }
+  
+  .h2 {
+    font-size: 18px;
+  }
+  
+  .grid p {
+    color: black;
+  }
+  
+  .grid2 p {
+    color: black;
+  }
+  
+
+
+  /* Responsive Styles */
+  @media (max-width: 1200px) {
+    .value h5 {
+      font-size: 11px; 
+    }
+  
+    .h1, .h2 {
+      font-size: 16px; 
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .value h5 {
+      font-size: 10px; 
+    }
+  
+    .value h3 {
+      font-size: 18px; 
+    }
+  
+    .value p {
+      font-size: 14px;
+    }
+  
+    .h1, .h2 {
+      font-size: 14px; 
+    }
+  
+    .grid p, .grid2 p {
+      font-size: 14px; 
+    }
+  }
+
+
+  
+  @media (max-width: 480px) {
+    .value h5 {
+      font-size: 9px; 
+    }
+  
+    .value h3 {
+      font-size: 16px; 
+    }
+  
+    .value p {
+      font-size: 12px; 
+    }
+  
+    .h1, .h2 {
+      font-size: 12px;  
+    }
+  
+    .grid p, .grid2 p {
+      font-size: 12px; 
+    }
+  }
+  
